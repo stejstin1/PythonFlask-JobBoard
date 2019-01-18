@@ -1,4 +1,5 @@
 {% extends 'layout.html' %}
+{% block content %}
 <div class="columns">
   <div class="column">
     <h1>Jobs</h1>
@@ -6,3 +7,5 @@
   <div class="column is-one-fifth">
   </div>
 </div>
+{{ show_jobs(jobs) }}
+{% endblock %}
